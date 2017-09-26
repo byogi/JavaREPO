@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_jngbYaL2EeeNA6rcH_ZDnA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_jngbYqL2EeeNA6rcH_ZDnA" bindingContexts="_jngbZKL2EeeNA6rcH_ZDnA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HelloWorld.java&quot; tooltip=&quot;Hello World/src/HelloWorld.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Hello World/src/HelloWorld.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HelloWorld.java&quot; tooltip=&quot;Hello World/src/HelloWorld.java&quot;>&#xA;&lt;persistable path=&quot;/Hello World/src/HelloWorld.java&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_jngbYqL2EeeNA6rcH_ZDnA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_j3NEQ6L2EeeNA6rcH_ZDnA" label="%trimmedwindow.label.eclipseSDK" x="104" y="104" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
-    <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
+    <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1506456551997"/>
     <tags>topLevel</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_j3NEQ6L2EeeNA6rcH_ZDnA" selectedElement="_j3NERKL2EeeNA6rcH_ZDnA" horizontal="true">
@@ -66,6 +66,8 @@
           <tags>persp.showIn:org.eclipse.ui.navigator.ProjectExplorer</tags>
           <tags>persp.viewSC:org.eclipse.mylyn.tasks.ui.views.tasks</tags>
           <tags>persp.newWizSC:org.eclipse.mylyn.tasks.ui.wizards.new.repository.task</tags>
+          <tags>persp.actionSet:org.eclipse.mylyn.doc.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.wb.core.ui.actionset</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_j9AxVaL2EeeNA6rcH_ZDnA" selectedElement="_j9AxX6L2EeeNA6rcH_ZDnA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_j9AxVqL2EeeNA6rcH_ZDnA" containerData="2500" selectedElement="_j9AxV6L2EeeNA6rcH_ZDnA">
               <children xsi:type="basic:PartStack" xmi:id="_j9AxV6L2EeeNA6rcH_ZDnA" elementId="left" containerData="6000" selectedElement="_j9AxWKL2EeeNA6rcH_ZDnA">
@@ -146,7 +148,7 @@
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_oKSDAKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="HelloWorld.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HelloWorld.java&quot; partName=&quot;HelloWorld.java&quot; title=&quot;HelloWorld.java&quot; tooltip=&quot;Hello World/src/HelloWorld.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Hello World/src/HelloWorld.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;117&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HelloWorld.java&quot; partName=&quot;HelloWorld.java&quot; title=&quot;HelloWorld.java&quot; tooltip=&quot;Hello World/src/HelloWorld.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Hello World/src/HelloWorld.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;104&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -156,7 +158,7 @@
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_j83noqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.jdt.ui.PackageExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Package Explorer" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/package.gif" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1506456551997&quot;>&#xD;&#xA;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;>&#xD;&#xA;&lt;xmlDefinedFilters>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/xmlDefinedFilters>&#xD;&#xA;&lt;/customFilters>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1506456551997&quot;>&#xA;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;>&#xA;&lt;xmlDefinedFilters>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;/xmlDefinedFilters>&#xA;&lt;/customFilters>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
       <menus xmi:id="_j-zhEKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.jdt.ui.PackageExplorer">
@@ -178,7 +180,7 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_j83npqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_kEeEMKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.ProblemView">
@@ -200,7 +202,7 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_j83nqqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_vdNeEKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.console.ConsoleView">
@@ -218,7 +220,7 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_j83nraL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.ContentOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.png" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_kDksUKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.ContentOutline">
@@ -244,7 +246,7 @@
       <tags>categoryTag:Java</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_j9AxU6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Task List" iconURI="platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view linkWithEditor=&quot;true&quot; presentation=&quot;org.eclipse.mylyn.tasks.ui.categorized&quot;>&#xD;&#xA;&lt;sorter groupBy=&quot;CATEGORY_QUERY&quot;>&#xD;&#xA;&lt;sorter>&#xD;&#xA;&lt;sort0 sortDirection=&quot;1&quot; sortKey=&quot;PRIORITY&quot;/>&#xD;&#xA;&lt;sort1 sortDirection=&quot;1&quot; sortKey=&quot;RANK&quot;/>&#xD;&#xA;&lt;sort2 sortDirection=&quot;1&quot; sortKey=&quot;DATE_CREATED&quot;/>&#xD;&#xA;&lt;sort3 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sort4 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sort5 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sort6 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sort7 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;/sorter>&#xD;&#xA;&lt;/sorter>&#xD;&#xA;&lt;filteredTreeFindHistory/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view linkWithEditor=&quot;true&quot; presentation=&quot;org.eclipse.mylyn.tasks.ui.categorized&quot;>&#xA;&lt;sorter groupBy=&quot;CATEGORY_QUERY&quot;>&#xA;&lt;sorter>&#xA;&lt;sort0 sortDirection=&quot;1&quot; sortKey=&quot;PRIORITY&quot;/>&#xA;&lt;sort1 sortDirection=&quot;1&quot; sortKey=&quot;RANK&quot;/>&#xA;&lt;sort2 sortDirection=&quot;1&quot; sortKey=&quot;DATE_CREATED&quot;/>&#xA;&lt;sort3 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xA;&lt;sort4 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xA;&lt;sort5 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xA;&lt;sort6 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xA;&lt;sort7 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xA;&lt;/sorter>&#xA;&lt;/sorter>&#xA;&lt;filteredTreeFindHistory/>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Mylyn</tags>
       <menus xmi:id="_kBVQoKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.mylyn.tasks.ui.views.tasks">
@@ -260,7 +262,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_j4PmEqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_j4PmJKL2EeeNA6rcH_ZDnA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_jn8hTaL2EeeNA6rcH_ZDnA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_i7RRYKL_EeeoXKkMuoHCXQ" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_jn8hTaL2EeeNA6rcH_ZDnA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_j4PmE6L2EeeNA6rcH_ZDnA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -284,7 +286,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_j4PmF6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_j4ZXGaL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_jn8gyKL2EeeNA6rcH_ZDnA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_i7XYAaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_jn8gyKL2EeeNA6rcH_ZDnA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_j4PmGKL2EeeNA6rcH_ZDnA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -329,256 +331,408 @@
       </children>
     </trimBars>
   </children>
+  <handlers xmi:id="_iiLb8KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.ArrangeWindowHandler" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.ArrangeWindowHandler" command="_iiK04KL_EeeoXKkMuoHCXQ"/>
+  <handlers xmi:id="_iiMDAaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.MinimizeWindowHandler" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.MinimizeWindowHandler" command="_iiMDAKL_EeeoXKkMuoHCXQ"/>
+  <handlers xmi:id="_iiMqEKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.FullscreenWindowHandler" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.FullscreenWindowHandler" command="_iiMDAqL_EeeoXKkMuoHCXQ"/>
+  <handlers xmi:id="_iiNRIKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.ZoomWindowHandler" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.ZoomWindowHandler" command="_iiMqEqL_EeeoXKkMuoHCXQ"/>
+  <handlers xmi:id="_iiNRIqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CloseDialogHandler" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CloseDialogHandler" command="_iiNRIaL_EeeoXKkMuoHCXQ"/>
   <bindingTables xmi:id="_jngbY6L2EeeNA6rcH_ZDnA" contributorURI="platform:/plugin/org.eclipse.platform" bindingContext="_jngbZKL2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joZMSKL2EeeNA6rcH_ZDnA" keySequence="CTRL+A" command="_jn8hyqL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joZMSqL2EeeNA6rcH_ZDnA" keySequence="CTRL+SPACE" command="_jn8hBKL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joZMT6L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+SPACE" command="_jn8g8qL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9MaL2EeeNA6rcH_ZDnA" keySequence="CTRL+Y" command="_jn8iCaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9PaL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+L" command="_jn8hmqL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9SaL2EeeNA6rcH_ZDnA" keySequence="ALT+PAGE_UP" command="_jn8iK6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9SqL2EeeNA6rcH_ZDnA" keySequence="CTRL+C" command="_jnzWhqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9UKL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+D" command="_jn8h0KL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9U6L2EeeNA6rcH_ZDnA" keySequence="ALT+PAGE_DOWN" command="_jn8gcaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9aaL2EeeNA6rcH_ZDnA" keySequence="SHIFT+INSERT" command="_jnzWwqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9eqL2EeeNA6rcH_ZDnA" keySequence="CTRL+Z" command="_jn8hKqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9gaL2EeeNA6rcH_ZDnA" keySequence="CTRL+1" command="_jn8gv6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9lqL2EeeNA6rcH_ZDnA" keySequence="CTRL+V" command="_jnzWwqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9qqL2EeeNA6rcH_ZDnA" keySequence="CTRL+F10" command="_jnzW9qL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9sKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+F3" command="_jn8hWqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9s6L2EeeNA6rcH_ZDnA" keySequence="CTRL+X" command="_jn8hNqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9uqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+F1" command="_jn8gVqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9vaL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+I" command="_jn8gmKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9vqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+F2" command="_jn8gS6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9wKL2EeeNA6rcH_ZDnA" keySequence="CTRL+INSERT" command="_jnzWhqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuP6L2EeeNA6rcH_ZDnA" keySequence="SHIFT+DEL" command="_jn8hNqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihEos6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+C" command="_jnzWhqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihGd4qL_EeeoXKkMuoHCXQ" keySequence="COMMAND+A" command="_jn8hyqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihI6IaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+I" command="_jn8gmKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihKIQqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+D" command="_jn8h0KL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihOZtKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+L" command="_jn8hmqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihPAwKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+1" command="_jn8gv6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihQ18KL_EeeoXKkMuoHCXQ" keySequence="COMMAND+Z" command="_jn8hKqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihQ18aL_EeeoXKkMuoHCXQ" keySequence="COMMAND+X" command="_jn8hNqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihVuc6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+V" command="_jnzWwqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_iham9KL_EeeoXKkMuoHCXQ" keySequence="COMMAND+F10" command="_jnzW9qL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihb1FKL_EeeoXKkMuoHCXQ" keySequence="SHIFT+F10" command="_jn8gt6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihh7sKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+Z" command="_jn8iCaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
   </bindingTables>
   <bindingTables xmi:id="_joZMMKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.textEditorScope" bindingContext="_joGRQqL2EeeNA6rcH_ZDnA">
     <bindings xmi:id="_joZMMaL2EeeNA6rcH_ZDnA" keySequence="CTRL+ARROW_DOWN" command="_jn8iRqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMOqL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+ARROW_LEFT" command="_jn8hrKL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joZMR6L2EeeNA6rcH_ZDnA" keySequence="CTRL+ARROW_UP" command="_jn8gVaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMSaL2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+ARROW_UP" command="_jn8h6qL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joZMS6L2EeeNA6rcH_ZDnA" keySequence="ALT+ARROW_DOWN" command="_jn8gg6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMTaL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+DEL" command="_jn8hCaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMTqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+A" command="_jnzWs6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9NaL2EeeNA6rcH_ZDnA" keySequence="CTRL+NUMPAD_ADD" command="_jn8h06L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9QaL2EeeNA6rcH_ZDnA" keySequence="CTRL+J" command="_jnzXAKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9SKL2EeeNA6rcH_ZDnA" keySequence="CTRL+ARROW_LEFT" command="_jnzWfKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9UaL2EeeNA6rcH_ZDnA" keySequence="CTRL+ARROW_RIGHT" command="_jn8goaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9UqL2EeeNA6rcH_ZDnA" keySequence="CTRL+D" command="_jnzXEqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9VKL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+ARROW_RIGHT" command="_jn8ghaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9WKL2EeeNA6rcH_ZDnA" keySequence="SHIFT+HOME" command="_jn8hhKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9WaL2EeeNA6rcH_ZDnA" keySequence="CTRL+HOME" command="_jnzWwaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9XqL2EeeNA6rcH_ZDnA" keySequence="SHIFT+END" command="_jn8hp6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9ZaL2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+J" command="_jn8gtKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9ZqL2EeeNA6rcH_ZDnA" keySequence="CTRL+BS" command="_jnzWe6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9aKL2EeeNA6rcH_ZDnA" keySequence="CTRL+END" command="_jn8giKL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9hqL2EeeNA6rcH_ZDnA" keySequence="INSERT" command="_jnzW56L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9j6L2EeeNA6rcH_ZDnA" keySequence="CTRL+NUMPAD_DIVIDE" command="_jn8gWqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9kKL2EeeNA6rcH_ZDnA" keySequence="CTRL+NUMPAD_MULTIPLY" command="_jn8go6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9kqL2EeeNA6rcH_ZDnA" keySequence="HOME" command="_jn8hq6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9mKL2EeeNA6rcH_ZDnA" keySequence="END" command="_jn8hdqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9pKL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+K" command="_jn8gTKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9qaL2EeeNA6rcH_ZDnA" keySequence="CTRL+F10" command="_jn8hUqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9q6L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+CR" command="_jn8hWKL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9raL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+Q" command="_jn8gpKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9r6L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+Y" command="_jn8hmaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9taL2EeeNA6rcH_ZDnA" keySequence="CTRL+K" command="_jn8gaKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9u6L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+INSERT" command="_jn8ge6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9waL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+J" command="_jn8gk6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9w6L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+NUMPAD_MULTIPLY" command="_jn8gr6L2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9zqL2EeeNA6rcH_ZDnA" keySequence="F2" command="_jn8gzKL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi92qL2EeeNA6rcH_ZDnA" keySequence="SHIFT+CR" command="_jn8hqqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi93qL2EeeNA6rcH_ZDnA" keySequence="ALT+/" command="_jn8hsKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi94aL2EeeNA6rcH_ZDnA" keySequence="CTRL+NUMPAD_SUBTRACT" command="_jn8hV6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuMKL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+NUMPAD_DIVIDE" command="_jnzW66L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuMqL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+X" command="_jnzWlaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuNaL2EeeNA6rcH_ZDnA" keySequence="CTRL+L" command="_jn8hIKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuOqL2EeeNA6rcH_ZDnA" keySequence="CTRL+DEL" command="_jn8hIqL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_josuPaL2EeeNA6rcH_ZDnA" keySequence="ALT+ARROW_UP" command="_jn8iI6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuR6L2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+ARROW_DOWN" command="_jn8h36L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ig8F0KL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+ARROW_LEFT" command="_jn8hhKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ig8s4KL_EeeoXKkMuoHCXQ" keySequence="ALT+ARROW_RIGHT" command="_jn8goaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ig8s4aL_EeeoXKkMuoHCXQ" keySequence="ALT+SHIFT+ARROW_RIGHT" command="_jn8ghaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ig_JIaL_EeeoXKkMuoHCXQ" keySequence="ALT+ARROW_LEFT" command="_jnzWfKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ig_wMqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+ARROW_DOWN" command="_jn8h36L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihDakqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+NUMPAD_ADD" command="_jn8h06L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihF20KL_EeeoXKkMuoHCXQ" keySequence="SHIFT+END" command="_jnzWeaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihF20aL_EeeoXKkMuoHCXQ" keySequence="COMMAND+ARROW_LEFT" command="_jn8hq6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihHE8aL_EeeoXKkMuoHCXQ" keySequence="SHIFT+HOME" command="_jn8g7qL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihHE8qL_EeeoXKkMuoHCXQ" keySequence="ALT+BS" command="_jnzWe6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihJhMKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+INSERT" command="_jn8ge6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihJhMaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+D" command="_jnzXEqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihKIQKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+ARROW_RIGHT" command="_jn8hdqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihKIQaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+ARROW_RIGHT" command="_jn8hp6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihKIQ6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+END" command="_jn8giKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihKvUKL_EeeoXKkMuoHCXQ" keySequence="END" command="_jn8giKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihNLkKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+NUMPAD_MULTIPLY" command="_jn8go6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihNLkaL_EeeoXKkMuoHCXQ" keySequence="CTRL+." command="_jn8hsKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihPAwaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+K" command="_jn8gaKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihPAwqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+NUMPAD_DIVIDE" command="_jn8gWqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihPAw6L_EeeoXKkMuoHCXQ" keySequence="HOME" command="_jnzWwaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihPAxKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+L" command="_jn8hIKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihRdAKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+J" command="_jnzXAKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihXjoKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+NUMPAD_SUBTRACT" command="_jn8hV6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihZY0aL_EeeoXKkMuoHCXQ" keySequence="COMMAND+HOME" command="_jnzWwaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_iham8KL_EeeoXKkMuoHCXQ" keySequence="F12" command="_if3HwKL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_iham9aL_EeeoXKkMuoHCXQ" keySequence="COMMAND+F10" command="_jn8hUqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihb1EaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+X" command="_jnzWlaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihb1E6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+CR" command="_jn8hWKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihccIaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+NUMPAD_DIVIDE" command="_jnzW66L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihhUoKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+NUMPAD_MULTIPLY" command="_jn8gr6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihhUoaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+J" command="_jn8gk6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihkX8aL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+Y" command="_jn8hmaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihmNIaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+K" command="_jn8gTKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihm0MqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+ARROW_UP" command="_jn8h6qL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihnbQKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+A" command="_jnzWs6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihoCUKL_EeeoXKkMuoHCXQ" keySequence="ALT+DEL" command="_jn8hIqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihoCUaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+DEL" command="_jn8hCaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihoCUqL_EeeoXKkMuoHCXQ" keySequence="ALT+SHIFT+ARROW_LEFT" command="_jn8hrKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
   </bindingTables>
   <bindingTables xmi:id="_joZMMqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.contexts.window" bindingContext="_jngbZaL2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joZMM6L2EeeNA6rcH_ZDnA" keySequence="ALT+ARROW_RIGHT" command="_jn8hWaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMOaL2EeeNA6rcH_ZDnA" keySequence="CTRL+B" command="_jnzWz6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMO6L2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+SHIFT+ARROW_RIGHT" command="_jnzW5qL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMQKL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+A" command="_jn8gbaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMRKL2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+SHIFT+A" command="_jn8giqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMRaL2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+SHIFT+ARROW_UP" command="_jnzXA6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMRqL2EeeNA6rcH_ZDnA" keySequence="ALT+ARROW_LEFT" command="_jnzW_aL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMUqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+D O" command="_jnzWjaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMU6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+D Q" command="_jn8h76L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMVKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+D J" command="_jn8gu6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMVaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+D A" command="_jn8hI6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMVqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+D P" command="_jn8hRaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMV6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+D T" command="_jnzWjqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9MKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+D E" command="_jn8iKqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9NKL2EeeNA6rcH_ZDnA" keySequence="CTRL+F" command="_jnzXL6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9NqL2EeeNA6rcH_ZDnA" keySequence="CTRL+F12" command="_jn8gVKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9OaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+R" command="_jn8iDqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9PqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+M" command="_jn8h16L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9P6L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+O" command="_jn8hyaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9QKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+V" command="_jn8hraL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9RaL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+F7" command="_jn8hw6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9RqL2EeeNA6rcH_ZDnA" keySequence="CTRL+F11" command="_jn8hfKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9R6L2EeeNA6rcH_ZDnA" keySequence="CTRL+F8" command="_jn8gwqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9T6L2EeeNA6rcH_ZDnA" keySequence="CTRL+#" command="_jnzW-KL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9VaL2EeeNA6rcH_ZDnA" keySequence="CTRL+E" command="_jn8hH6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9VqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+F" command="_jn8hZaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9V6L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+E" command="_jn8gb6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9YaL2EeeNA6rcH_ZDnA" keySequence="CTRL+G" command="_jnzWfaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9YqL2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+G" command="_jn8gR6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9Y6L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+G" command="_jn8iCqL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9ZKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+H" command="_jn8hD6L2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9Z6L2EeeNA6rcH_ZDnA" keySequence="CTRL+H" command="_jn8hA6L2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9a6L2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+H" command="_jnzW7KL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9bKL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+H" command="_jnzWdqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9baL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+I" command="_jnzW-aL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9caL2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+SHIFT+F12" command="_jn8h2KL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9cqL2EeeNA6rcH_ZDnA" keySequence="CTRL+." command="_jn8h8KL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9c6L2EeeNA6rcH_ZDnA" keySequence="CTRL+P" command="_jn8hTaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9dKL2EeeNA6rcH_ZDnA" keySequence="CTRL+F9" command="_jn8gd6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9fqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+L" command="_jn8guqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9f6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+S" command="_jn8iQ6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9gqL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+W" command="_jn8hNKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9g6L2EeeNA6rcH_ZDnA" keySequence="CTRL+{" command="_jn8g9qL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_joi9hKL2EeeNA6rcH_ZDnA" elementId="Splitter.isHorizontal" name="Splitter.isHorizontal" value="false"/>
-    </bindings>
-    <bindings xmi:id="_joi9haL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+F12" command="_jnzWoqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9iKL2EeeNA6rcH_ZDnA" keySequence="CTRL+M" command="_jn8g_aL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9jKL2EeeNA6rcH_ZDnA" keySequence="CTRL+F6" command="_jnzXO6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9jaL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+F6" command="_jnzXLKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9jqL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+F9" command="_jn8hvqL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9lKL2EeeNA6rcH_ZDnA" keySequence="F3" command="_jn8gtqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9laL2EeeNA6rcH_ZDnA" keySequence="F11" command="_jn8hwKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9nKL2EeeNA6rcH_ZDnA" keySequence="CTRL+N" command="_jn8iEaL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9naL2EeeNA6rcH_ZDnA" keySequence="SHIFT+F5" command="_jn8h5qL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9nqL2EeeNA6rcH_ZDnA" keySequence="CTRL+S" command="_jn8hnqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9n6L2EeeNA6rcH_ZDnA" keySequence="CTRL+," command="_jnzWyqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9oaL2EeeNA6rcH_ZDnA" keySequence="CTRL+W" command="_jn8iF6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9oqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+T" command="_jnzWtaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9o6L2EeeNA6rcH_ZDnA" keySequence="CTRL+3" command="_jn8gzaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9qKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+N" command="_jn8hMKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9rKL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+N" command="_jnzWo6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9rqL2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+SHIFT+M" command="_jn8hwqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9sqL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+T" command="_jn8hNaL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9tKL2EeeNA6rcH_ZDnA" keySequence="CTRL+Q" command="_jn8hYqL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9uKL2EeeNA6rcH_ZDnA" keySequence="DEL" command="_jn8gQ6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9uaL2EeeNA6rcH_ZDnA" keySequence="F12" command="_jn8hB6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9v6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+J" command="_jn8hF6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9xKL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+NUMPAD_MULTIPLY" command="_jnzXG6L2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9yKL2EeeNA6rcH_ZDnA" keySequence="F5" command="_jn8heKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9yqL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+F8" command="_jn8g9aL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9y6L2EeeNA6rcH_ZDnA" keySequence="ALT+F7" command="_jnzWw6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9zaL2EeeNA6rcH_ZDnA" keySequence="ALT+-" command="_jnzWoaL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9z6L2EeeNA6rcH_ZDnA" keySequence="F2" command="_jnzWzaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi90KL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+R" command="_jn8iSaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi90aL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Z" command="_jnzWb6L2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi90qL2EeeNA6rcH_ZDnA" keySequence="F4" command="_jnzW3KL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi91KL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+F4" command="_jn8hNKL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi916L2EeeNA6rcH_ZDnA" keySequence="ALT+CR" command="_jn8g36L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi92KL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+U" command="_jn8geqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi92aL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+W" command="_jn8h66L2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi926L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+F7" command="_jn8gjaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi93aL2EeeNA6rcH_ZDnA" keySequence="CTRL+F4" command="_jn8iF6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuMaL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+NUMPAD_DIVIDE" command="_jn8g-KL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_josuNKL2EeeNA6rcH_ZDnA" keySequence="SHIFT+F2" command="_jnzXC6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuNqL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+S" command="_jnzXHKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuN6L2EeeNA6rcH_ZDnA" keySequence="CTRL+F7" command="_jnzWh6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuOKL2EeeNA6rcH_ZDnA" keySequence="CTRL+U" command="_jn8iAKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuO6L2EeeNA6rcH_ZDnA" keySequence="CTRL+_" command="_jn8g9qL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuPKL2EeeNA6rcH_ZDnA" elementId="Splitter.isHorizontal" name="Splitter.isHorizontal" value="true"/>
+    <bindings xmi:id="_ig63sKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+SHIFT+ARROW_RIGHT" command="_jnzW5qL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ig8F0aL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+ARROW_RIGHT" command="_jn8hWaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuQKL2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+SHIFT+ARROW_DOWN" command="_jn8iHaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuQaL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+B" command="_jn8gTaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuRKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+C" command="_jn8hCqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuSKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+X A" command="_jnzWx6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuSaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q D" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuSqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.SourceView"/>
+    <bindings xmi:id="_ig9T8KL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+SHIFT+ARROW_DOWN" command="_jn8iHaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ig-iEKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+C" command="_jn8hCqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuS6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+X J" command="_jn8gdqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuTKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+X P" command="_jn8h4KL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuTaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q X" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuTqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.views.ProblemView"/>
+    <bindings xmi:id="_ig-iEaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+ARROW_LEFT" command="_jnzW_aL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuT6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q V" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuUKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.debug.ui.VariableView"/>
+    <bindings xmi:id="_ig-iEqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+B" command="_jn8gTaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ig_JIKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+]" command="_jn8hWaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuUaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+X E" command="_jn8gRaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuU6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q Y" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuVKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.team.sync.views.SynchronizeView"/>
+    <bindings xmi:id="_ig_wMKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+=" command="_if4V-aL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihCMcKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+SHIFT+ARROW_UP" command="_jnzXA6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihCzgaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+CTRL+D Q" command="_jn8h76L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuVaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q L" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuVqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.pde.runtime.LogView"/>
+    <bindings xmi:id="_ihCzgqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+CTRL+D J" command="_jn8gu6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuV6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q J" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuWKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.JavadocView"/>
+    <bindings xmi:id="_ihDakKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+CTRL+D T" command="_jnzWjqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuWqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q C" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuW6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.console.ConsoleView"/>
+    <bindings xmi:id="_ihDakaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+CTRL+D A" command="_jn8hI6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuXKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+X Q" command="_jn8glaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuXqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+X T" command="_jn8hx6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuX6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q S" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuYKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.search.ui.views.SearchView"/>
+    <bindings xmi:id="_ihDak6L_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+T" command="_jnzWtaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuYaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q Z" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuYqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.team.ui.GenericHistoryView"/>
+    <bindings xmi:id="_ihEotKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+H" command="_jnzWdqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihFPwKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+I" command="_jnzW-aL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuY6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q B" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuZKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.debug.ui.BreakpointView"/>
+    <bindings xmi:id="_ihFPwaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+B" command="_jnzWz6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihGd4KL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+G" command="_jn8iCqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihGd4aL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+G" command="_jn8gR6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihITEaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+F" command="_jn8hZaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuZqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q H" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuZ6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.cheatsheets.views.CheatSheetView"/>
+    <bindings xmi:id="_ihI6IqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+J" command="_jn8hF6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuaKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q P" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josuaaL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.PackageExplorer"/>
+    <bindings xmi:id="_ihKvUaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+L" command="_jn8guqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josuaqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q Q" command="_jn8gXqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josua6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q T" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josubKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.TypeHierarchy"/>
+    <bindings xmi:id="_ihLWYKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+W" command="_jn8hNKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihLWYqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+U" command="_jn8geqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihL9caL_EeeoXKkMuoHCXQ" keySequence="COMMAND+N" command="_jn8iEaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihL9cqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+F6" command="_jnzXO6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihMkgaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+N" command="_jn8hMKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_josubaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+X O" command="_jnzXDaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josubqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q O" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josub6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.views.ContentOutline"/>
+    <bindings xmi:id="_ihMkgqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+F7" command="_jn8hw6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihMkg6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+F8" command="_jn8gwqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihNLkqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+R" command="_jn8iSaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihOZsKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+[" command="_jn8g9qL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihOZsaL_EeeoXKkMuoHCXQ" elementId="Splitter.isHorizontal" name="Splitter.isHorizontal" value="false"/>
     </bindings>
-    <bindings xmi:id="_josucKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+Q K" command="_jn8gXqL2EeeNA6rcH_ZDnA">
-      <parameters xmi:id="_josucaL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+    <bindings xmi:id="_ihOZs6L_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+M" command="_jn8h16L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
     </bindings>
+    <bindings xmi:id="_ihPn0KL_EeeoXKkMuoHCXQ" keySequence="CTRL+M" command="_jn8g_aL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihPn0aL_EeeoXKkMuoHCXQ" keySequence="COMMAND+[" command="_jnzW_aL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihQO4KL_EeeoXKkMuoHCXQ" keySequence="ALT+CTRL+P" command="_if3u36L_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihQ18qL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+F6" command="_jnzXLKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihQ186L_EeeoXKkMuoHCXQ" keySequence="COMMAND+3" command="_jn8gzaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihRdAaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+U" command="_jn8iAKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihVHYKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+F11" command="_jn8hfKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihVHYaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+T" command="_jn8hNaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihVHYqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+3" command="_jnzW-KL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihVucaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+P" command="_jn8hTaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihWVgKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+F9" command="_jn8hvqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihW8kKL_EeeoXKkMuoHCXQ" keySequence="ALT+F5" command="_if4896L_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihW8kqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+R" command="_jn8iDqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihXjoaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+F12" command="_jn8gVKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihYxwaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+." command="_jnzWyqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihZ_4KL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+F10" command="_jnzWoaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihb1EKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+S" command="_jn8hnqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihb1EqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+N" command="_jnzWo6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihccIKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+NUMPAD_DIVIDE" command="_jn8g-KL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihdDNKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+F12" command="_jn8hB6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihdqQKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+F12" command="_jnzWoqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihdqQaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+SHIFT+F12" command="_jn8h2KL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihe4YKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+-" command="_jn8g9qL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihe4YaL_EeeoXKkMuoHCXQ" elementId="Splitter.isHorizontal" name="Splitter.isHorizontal" value="true"/>
+    </bindings>
+    <bindings xmi:id="_ihe4ZKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+W" command="_jn8iF6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihgGgKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+E" command="_jn8hH6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihgGgaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+NUMPAD_MULTIPLY" command="_jnzXG6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihhUoqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+E" command="_jn8gb6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihh7saL_EeeoXKkMuoHCXQ" keySequence="COMMAND+." command="_jn8h8KL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihh7taL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+F8" command="_jn8g9aL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihiiwqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+O" command="_jn8hyaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihiixaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+F" command="_jnzXL6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihjJ0aL_EeeoXKkMuoHCXQ" keySequence="COMMAND+I" command="_jn8g36L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihjw4KL_EeeoXKkMuoHCXQ" keySequence="COMMAND+F11" command="_jn8hwKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihkX8KL_EeeoXKkMuoHCXQ" keySequence="COMMAND+F9" command="_jn8gd6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihkX8qL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+W" command="_jn8h66L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihkX9aL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+V" command="_jn8hraL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihk_AKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+S" command="_jnzXHKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihk_AaL_EeeoXKkMuoHCXQ" keySequence="ALT+SHIFT+P" command="_if4V4aL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihk_AqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+F7" command="_jnzWh6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihmNIKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+-" command="_if4886L_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihmNI6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+G" command="_jnzWfaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihm0MKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+S" command="_jn8iQ6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihm0MaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Z" command="_jnzWb6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihopYaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+X Q" command="_jn8glaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihopYqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+X T" command="_jn8hx6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihpQcKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q C" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihpQcaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.console.ConsoleView"/>
+    </bindings>
+    <bindings xmi:id="_ihpQcqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q Y" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihpQc6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.team.sync.views.SynchronizeView"/>
+    </bindings>
+    <bindings xmi:id="_ihpQdKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q P" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihpQdaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.PackageExplorer"/>
+    </bindings>
+    <bindings xmi:id="_ihpQdqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+X A" command="_jnzWx6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihpQd6L_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q L" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihpQeKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.pde.runtime.LogView"/>
+    </bindings>
+    <bindings xmi:id="_ihp3gKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q Z" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihp3gaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.team.ui.GenericHistoryView"/>
+    </bindings>
+    <bindings xmi:id="_ihp3gqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q D" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihp3g6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.SourceView"/>
+    </bindings>
+    <bindings xmi:id="_ihp3hKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q X" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihp3haL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.views.ProblemView"/>
+    </bindings>
+    <bindings xmi:id="_ihp3hqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q H" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihp3h6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.cheatsheets.views.CheatSheetView"/>
+    </bindings>
+    <bindings xmi:id="_ihqekKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q B" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihqekaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.debug.ui.BreakpointView"/>
+    </bindings>
+    <bindings xmi:id="_ihqekqL_EeeoXKkMuoHCXQ" keySequence="ALT+SHIFT+X M" command="_if7ZMKL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihqek6L_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q J" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihrFoKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.JavadocView"/>
+    </bindings>
+    <bindings xmi:id="_ihrFoqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q S" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihrFo6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.search.ui.views.SearchView"/>
+    </bindings>
+    <bindings xmi:id="_ihrFpKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+X J" command="_jn8gdqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihrssKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q Q" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihrssaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q T" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihrssqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.TypeHierarchy"/>
+    </bindings>
+    <bindings xmi:id="_ihrss6L_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q V" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihrstKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.debug.ui.VariableView"/>
+    </bindings>
+    <bindings xmi:id="_ihsTwKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q K" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihsTwaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+    </bindings>
+    <bindings xmi:id="_ihsTwqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+Q O" command="_jn8gXqL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+      <parameters xmi:id="_ihsTw6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.views.ContentOutline"/>
+    </bindings>
+    <bindings xmi:id="_iiMqEaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+CTRL+F" command="_iiMDAqL_EeeoXKkMuoHCXQ"/>
   </bindingTables>
   <bindingTables xmi:id="_joZMNKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.jdt.ui.javaEditorScope" bindingContext="_joGRU6L2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joZMNaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+ARROW_RIGHT" command="_jnzXEKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMNqL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+C" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMPKL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+ARROW_UP" command="_jn8iIKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMPaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+B" command="_jn8iKaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMQaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+ARROW_DOWN" command="_jn8gWKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joZMUKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+ARROW_UP" command="_jn8h7qL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9W6L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+F" command="_jn8hqKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9cKL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+/" command="_jn8iAaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9dqL2EeeNA6rcH_ZDnA" keySequence="CTRL+F3" command="_jn8h7aL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9d6L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+P" command="_jn8gjKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9e6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+U" command="_jn8gxaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9iqL2EeeNA6rcH_ZDnA" keySequence="CTRL+/" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9mqL2EeeNA6rcH_ZDnA" keySequence="CTRL+T" command="_jnzWsaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9paL2EeeNA6rcH_ZDnA" keySequence="CTRL+O" command="_jn8hzaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9tqL2EeeNA6rcH_ZDnA" keySequence="CTRL+7" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9wqL2EeeNA6rcH_ZDnA" keySequence="CTRL+I" command="_jn8hU6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9xqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+O" command="_jn8hJaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi936L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+M" command="_jn8gzqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuOaL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+\" command="_jnzXHaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuQqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+ARROW_LEFT" command="_jn8ha6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuQ6L2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+ARROW_DOWN" command="_jn8h0aL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuUqL2EeeNA6rcH_ZDnA" keySequence="CTRL+2 F" command="_jn8h1KL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuWaL2EeeNA6rcH_ZDnA" keySequence="CTRL+2 R" command="_jn8g5KL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuXaL2EeeNA6rcH_ZDnA" keySequence="CTRL+2 L" command="_jnzXBKL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_josuZaL2EeeNA6rcH_ZDnA" keySequence="CTRL+2 M" command="_jn8he6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ig7ewKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+C" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ig_wMaL_EeeoXKkMuoHCXQ" keySequence="ALT+CTRL+ARROW_UP" command="_jn8iIKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihAXQaL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+B" command="_jn8iKaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihBlYKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+\" command="_jnzXHaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihBlYqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+CTRL+\" command="_jnzXHaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihEosKL_EeeoXKkMuoHCXQ" keySequence="CTRL+SHIFT+END" command="_jnzXEKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihFPwqL_EeeoXKkMuoHCXQ" keySequence="CTRL+SHIFT+PAGE_DOWN" command="_jn8gWKL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihHE8KL_EeeoXKkMuoHCXQ" keySequence="CTRL+SHIFT+PAGE_UP" command="_jn8h7qL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihHsAaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+F" command="_jn8hqKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihI6I6L_EeeoXKkMuoHCXQ" keySequence="CTRL+SHIFT+HOME" command="_jn8ha6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihLWYaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+CTRL+/" command="_jn8iAaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihSEEKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+M" command="_jn8gzqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihXjoqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+7" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihZY0KL_EeeoXKkMuoHCXQ" keySequence="COMMAND+F3" command="_jn8h7aL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_iham8aL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+O" command="_jn8hJaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihccI6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+O" command="_jn8hzaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihe4YqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+U" command="_jn8gxaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihh7sqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+/" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihiiwaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+T" command="_jnzWsaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihiixqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+I" command="_jn8hU6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihkX86L_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+P" command="_jn8gjKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihoCVKL_EeeoXKkMuoHCXQ" keySequence="ALT+CTRL+ARROW_DOWN" command="_jn8h0aL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihopYKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+2 R" command="_jn8g5KL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihopY6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+2 L" command="_jnzXBKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihrFoaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+2 F" command="_jn8h1KL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihrFpaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+2 M" command="_jn8he6L2EeeNA6rcH_ZDnA"/>
   </bindingTables>
   <bindingTables xmi:id="_joZMN6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.jdt.ui.propertiesEditorScope" bindingContext="_joGRT6L2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joZMOKL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+C" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9i6L2EeeNA6rcH_ZDnA" keySequence="CTRL+/" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9t6L2EeeNA6rcH_ZDnA" keySequence="CTRL+7" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ig7ewaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+C" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihXjo6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+7" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihh7s6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+/" command="_jnzWpaL2EeeNA6rcH_ZDnA"/>
   </bindingTables>
   <bindingTables xmi:id="_joZMPqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.jdt.ui.breadcrumbEditorScope" bindingContext="_joGRUaL2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joZMP6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+B" command="_jn8iKaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihAXQqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+B" command="_jn8iKaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
   </bindingTables>
   <bindingTables xmi:id="_joZMQqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" bindingContext="_joGRQKL2EeeNA6rcH_ZDnA">
     <bindings xmi:id="_joZMQ6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+ARROW_DOWN" command="_jn8hpaL2EeeNA6rcH_ZDnA"/>
@@ -589,63 +743,70 @@
     <bindings xmi:id="_joi9bqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+I" command="_jn8hnaL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9fKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+U" command="_jn8gm6L2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9h6L2EeeNA6rcH_ZDnA" keySequence="INSERT" command="_jn8hlaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9zKL2EeeNA6rcH_ZDnA" keySequence="CTRL+CR" command="_jn8hDaL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi906L2EeeNA6rcH_ZDnA" keySequence="F4" command="_jnzW9aL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_josuPqL2EeeNA6rcH_ZDnA" keySequence="ALT+ARROW_UP" command="_jn8gWaL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_josuRaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+C" command="_jn8iQqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihL9c6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+CR" command="_jn8hDaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihPAxaL_EeeoXKkMuoHCXQ" keySequence="ALT+SHIFT+N" command="_jn8gQaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihbOAKL_EeeoXKkMuoHCXQ" keySequence="ALT+N" command="_jn8hlaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
   </bindingTables>
   <bindingTables xmi:id="_joi9MqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.debug.ui.memoryview" bindingContext="_joGRSqL2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joi9M6L2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+M" command="_jn8hxaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9maL2EeeNA6rcH_ZDnA" keySequence="CTRL+T" command="_jn8g1aL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9m6L2EeeNA6rcH_ZDnA" keySequence="CTRL+N" command="_jnzXOqL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9oKL2EeeNA6rcH_ZDnA" keySequence="CTRL+W" command="_jnzW86L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi93KL2EeeNA6rcH_ZDnA" keySequence="ALT+CTRL+N" command="_jn8h2qL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihL9cKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+N" command="_jnzXOqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihMkgKL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+N" command="_jn8h2qL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihOZsqL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+M" command="_jn8hxaL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihe4Y6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+W" command="_jnzW86L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihiiwKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+T" command="_jn8g1aL2EeeNA6rcH_ZDnA"/>
   </bindingTables>
   <bindingTables xmi:id="_joi9N6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.ant.ui.AntEditorScope" bindingContext="_joGRS6L2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joi9OKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+R" command="_jnzW2qL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9WqL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+F" command="_jn8hqKL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9k6L2EeeNA6rcH_ZDnA" keySequence="F3" command="_jnzWkaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9xaL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+O" command="_jnzWiaL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_josuM6L2EeeNA6rcH_ZDnA" keySequence="SHIFT+F2" command="_jnzW06L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihHsAKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+F" command="_jn8hqKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihW8k6L_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+R" command="_jnzW2qL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_iham8qL_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+O" command="_jnzWiaL2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
   </bindingTables>
   <bindingTables xmi:id="_joi9O6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.mylyn.tasks.ui.editors.task" bindingContext="_joGRQ6L2EeeNA6rcH_ZDnA">
     <bindings xmi:id="_joi9PKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+R" command="_jn8hqaL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9b6L2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+I" command="_jn8hnaL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9faL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+U" command="_jn8gm6L2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9gKL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+S" command="_jn8hP6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9p6L2EeeNA6rcH_ZDnA" keySequence="CTRL+O" command="_jn8h4qL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi94KL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+M" command="_jnzWraL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_josuRqL2EeeNA6rcH_ZDnA" keySequence="ALT+SHIFT+C" command="_jn8iQqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihUgUKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+M" command="_jnzWraL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihdDMKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+O" command="_jn8h4qL2EeeNA6rcH_ZDnA"/>
   </bindingTables>
   <bindingTables xmi:id="_joi9QqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.debug.ui.debugging" bindingContext="_joGRTKL2EeeNA6rcH_ZDnA">
     <bindings xmi:id="_joi9Q6L2EeeNA6rcH_ZDnA" keySequence="F8" command="_jnzW46L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9RKL2EeeNA6rcH_ZDnA" keySequence="CTRL+F2" command="_jn8hEaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9daL2EeeNA6rcH_ZDnA" keySequence="CTRL+F5" command="_jn8ht6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9kaL2EeeNA6rcH_ZDnA" keySequence="CTRL+R" command="_jnzWjKL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9vKL2EeeNA6rcH_ZDnA" keySequence="F7" command="_jn8h-6L2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9x6L2EeeNA6rcH_ZDnA" keySequence="F5" command="_jnzW5KL2EeeNA6rcH_ZDnA"/>
     <bindings xmi:id="_joi9yaL2EeeNA6rcH_ZDnA" keySequence="F6" command="_jn8hs6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihWVgaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+R" command="_jnzWjKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihW8kaL_EeeoXKkMuoHCXQ" keySequence="ALT+F5" command="_jn8ht6L2EeeNA6rcH_ZDnA">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihffcKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+F2" command="_jn8hEaL2EeeNA6rcH_ZDnA"/>
   </bindingTables>
   <bindingTables xmi:id="_joi9S6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.egit.ui.RepositoriesView" bindingContext="_joGRUqL2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joi9TKL2EeeNA6rcH_ZDnA" keySequence="CTRL+C" command="_jn8g26L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9l6L2EeeNA6rcH_ZDnA" keySequence="CTRL+V" command="_jnzWk6L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihEosaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+C" command="_jn8g26L2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihVucqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+V" command="_jnzWk6L2EeeNA6rcH_ZDnA"/>
   </bindingTables>
   <bindingTables xmi:id="_joi9TaL2EeeNA6rcH_ZDnA" elementId="org.eclipse.egit.ui.ReflogView" bindingContext="_joGRUKL2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joi9TqL2EeeNA6rcH_ZDnA" keySequence="CTRL+C" command="_jn8gQKL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihEosqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+C" command="_jn8gQKL2EeeNA6rcH_ZDnA"/>
   </bindingTables>
-  <bindingTables xmi:id="_joi9XKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.pde.ui.pdeEditorContext" bindingContext="_joGRRqL2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joi9XaL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+F" command="_jnzXCaL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9pqL2EeeNA6rcH_ZDnA" keySequence="CTRL+O" command="_jnzXNqL2EeeNA6rcH_ZDnA"/>
-  </bindingTables>
+  <bindingTables xmi:id="_joi9XKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.pde.ui.pdeEditorContext" bindingContext="_joGRRqL2EeeNA6rcH_ZDnA"/>
   <bindingTables xmi:id="_joi9X6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.debug.ui.memory.abstractasynctablerendering" bindingContext="_joGRTaL2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joi9YKL2EeeNA6rcH_ZDnA" keySequence="CTRL+G" command="_jn8g-6L2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9iaL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+." command="_jn8g-qL2EeeNA6rcH_ZDnA"/>
-    <bindings xmi:id="_joi9saL2EeeNA6rcH_ZDnA" keySequence="CTRL+SHIFT+," command="_jn8hZqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihYxwKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+." command="_jn8g-qL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihccIqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+," command="_jn8hZqL2EeeNA6rcH_ZDnA"/>
+    <bindings xmi:id="_ihmNIqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+G" command="_jn8g-6L2EeeNA6rcH_ZDnA"/>
   </bindingTables>
   <bindingTables xmi:id="_joi9eKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.debug.ui.console" bindingContext="_joGRRaL2EeeNA6rcH_ZDnA">
-    <bindings xmi:id="_joi9eaL2EeeNA6rcH_ZDnA" keySequence="CTRL+Z" command="_jn8h6KL2EeeNA6rcH_ZDnA">
-      <tags>platform:win32</tags>
-    </bindings>
+    <bindings xmi:id="_ihITEKL_EeeoXKkMuoHCXQ" keySequence="CTRL+D" command="_jn8h6KL2EeeNA6rcH_ZDnA"/>
   </bindingTables>
   <bindingTables xmi:id="_joi91aL2EeeNA6rcH_ZDnA" elementId="org.eclipse.debug.ui.BreakpointView" bindingContext="_joGRQaL2EeeNA6rcH_ZDnA">
     <bindings xmi:id="_joi91qL2EeeNA6rcH_ZDnA" keySequence="ALT+CR" command="_jnzWdKL2EeeNA6rcH_ZDnA"/>
@@ -683,6 +844,67 @@
   <bindingTables xmi:id="_j83nnaL2EeeNA6rcH_ZDnA" bindingContext="_j83nnKL2EeeNA6rcH_ZDnA"/>
   <bindingTables xmi:id="_j83nn6L2EeeNA6rcH_ZDnA" bindingContext="_j83nnqL2EeeNA6rcH_ZDnA"/>
   <bindingTables xmi:id="_j83noaL2EeeNA6rcH_ZDnA" bindingContext="_j83noKL2EeeNA6rcH_ZDnA"/>
+  <bindingTables xmi:id="_ig0xEKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.structuredTextEditorScope" bindingContext="_igDVBaL_EeeoXKkMuoHCXQ">
+    <bindings xmi:id="_ig6QoKL_EeeoXKkMuoHCXQ" keySequence="CTRL+SHIFT+ARROW_LEFT" command="_if3u2qL_EeeoXKkMuoHCXQ">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ig7ewqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+C" command="_if489KL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ig8s4qL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+>" command="_if4V86L_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ig9T8aL_EeeoXKkMuoHCXQ" keySequence="ALT+SHIFT+ARROW_DOWN" command="_if4V6qL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ig97AKL_EeeoXKkMuoHCXQ" keySequence="CTRL+SHIFT+ARROW_UP" command="_if4V6aL_EeeoXKkMuoHCXQ">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ig97AaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+ARROW_DOWN" command="_if7ZNKL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihAXQKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+ARROW_UP" command="_if4V6aL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihA-UaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+A" command="_if7ZPqL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihA-UqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+\" command="_if4V4KL_EeeoXKkMuoHCXQ">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihBlYaL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+\" command="_if4V4KL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihCzgKL_EeeoXKkMuoHCXQ" keySequence="ALT+SHIFT+ARROW_UP" command="_if4V5qL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihHsAqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+F" command="_if7ZN6L_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihI6IKL_EeeoXKkMuoHCXQ" keySequence="CTRL+SHIFT+ARROW_RIGHT" command="_if3u3aL_EeeoXKkMuoHCXQ">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihKvUqL_EeeoXKkMuoHCXQ" keySequence="F3" command="_if3u0qL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihVucKL_EeeoXKkMuoHCXQ" keySequence="CTRL+SHIFT+." command="_if4V86L_EeeoXKkMuoHCXQ">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihWVgqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+/" command="_if3u0KL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihdDM6L_EeeoXKkMuoHCXQ" keySequence="COMMAND+O" command="_if3u2KL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihh7tKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+/" command="_if3u0KL_EeeoXKkMuoHCXQ">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_ihjJ0KL_EeeoXKkMuoHCXQ" keySequence="COMMAND+I" command="_if4V96L_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihkX9KL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+P" command="_if3u1KL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihoCU6L_EeeoXKkMuoHCXQ" keySequence="CTRL+SHIFT+ARROW_DOWN" command="_if7ZNKL_EeeoXKkMuoHCXQ">
+      <tags>platform:cocoa</tags>
+    </bindings>
+  </bindingTables>
+  <bindingTables xmi:id="_ihAXQ6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.wb.core.java.editorScope" bindingContext="_igDVAaL_EeeoXKkMuoHCXQ">
+    <bindings xmi:id="_ihA-UKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+A" command="_if7ZM6L_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_ihm0M6L_EeeoXKkMuoHCXQ" keySequence="ALT+COMMAND+A" command="_if7ZM6L_EeeoXKkMuoHCXQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_ihHE86L_EeeoXKkMuoHCXQ" elementId="org.eclipse.core.runtime.xml" bindingContext="_igDVCaL_EeeoXKkMuoHCXQ">
+    <bindings xmi:id="_ihHE9KL_EeeoXKkMuoHCXQ" keySequence="CTRL+SHIFT+D" command="_if7ZNqL_EeeoXKkMuoHCXQ"/>
+    <bindings xmi:id="_iham86L_EeeoXKkMuoHCXQ" keySequence="CTRL+SHIFT+P" command="_if4V8aL_EeeoXKkMuoHCXQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_ihNLk6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.internal.wikitext.ui.editor.basicMarkupSourceContext" bindingContext="_igDVA6L_EeeoXKkMuoHCXQ">
+    <bindings xmi:id="_ihNyoKL_EeeoXKkMuoHCXQ" keySequence="F1" command="_if3HwaL_EeeoXKkMuoHCXQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_ihdDMaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.ui.editor.markupSourceContext" bindingContext="_igDVBKL_EeeoXKkMuoHCXQ">
+    <bindings xmi:id="_ihdDMqL_EeeoXKkMuoHCXQ" keySequence="COMMAND+O" command="_if3u1qL_EeeoXKkMuoHCXQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_ihiiw6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.tasks.ui.markupSourceContext" bindingContext="_igD8EqL_EeeoXKkMuoHCXQ">
+    <bindings xmi:id="_ihiixKL_EeeoXKkMuoHCXQ" keySequence="COMMAND+SHIFT+O" command="_if3u1qL_EeeoXKkMuoHCXQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_iiNRI6L_EeeoXKkMuoHCXQ" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_jngbZ6L2EeeNA6rcH_ZDnA">
+    <bindings xmi:id="_iiNRJKL_EeeoXKkMuoHCXQ" keySequence="M1+W" command="_iiNRIaL_EeeoXKkMuoHCXQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_i5KYkaL_EeeoXKkMuoHCXQ" bindingContext="_i5KYkKL_EeeoXKkMuoHCXQ"/>
+  <bindingTables xmi:id="_i5LmsKL_EeeoXKkMuoHCXQ" bindingContext="_i5K_oKL_EeeoXKkMuoHCXQ"/>
+  <bindingTables xmi:id="_i5LmsqL_EeeoXKkMuoHCXQ" bindingContext="_i5LmsaL_EeeoXKkMuoHCXQ"/>
+  <bindingTables xmi:id="_i5MNwKL_EeeoXKkMuoHCXQ" bindingContext="_i5Lms6L_EeeoXKkMuoHCXQ"/>
   <rootContext xmi:id="_jngbZKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_jngbZaL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_jngbZqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -694,6 +916,25 @@
         <children xmi:id="_joGRS6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.ant.ui.AntEditorScope" name="Editing Ant Buildfiles" description="Editing Ant Buildfiles Context"/>
         <children xmi:id="_joGRT6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.jdt.ui.propertiesEditorScope" name="Editing Properties Files" description="Editing Properties Files Context"/>
         <children xmi:id="_joGRU6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.jdt.ui.javaEditorScope" name="Editing Java Source" description="Editing Java Source Context"/>
+        <children xmi:id="_igDVAaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wb.core.java.editorScope" name="WindowBuilder Java scope"/>
+        <children xmi:id="_igDVAqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xsd.ui.text.editor.context" name="Editing XSD context"/>
+        <children xmi:id="_igDVA6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.internal.wikitext.ui.editor.basicMarkupSourceContext" name="WikiText Markup Source Context" description="WikiText markup editing context">
+          <children xmi:id="_igDVBKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.ui.editor.markupSourceContext" name="WikiText Markup Source Context" description="WikiText markup editing context"/>
+          <children xmi:id="_igD8EqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.tasks.ui.markupSourceContext" name="Task Markup Editor Source Context"/>
+        </children>
+        <children xmi:id="_igDVBaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.structuredTextEditorScope" name="Editing in Structured Text Editors" description="Editing in Structured Text Editors">
+          <children xmi:id="_igDVBqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.navigation" name="XML Source Navigation" description="XML Source Navigation"/>
+          <children xmi:id="_igDVB6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.cleanup" name="XML Source Cleanup" description="XML Source Cleanup"/>
+          <children xmi:id="_igDVCKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.comments" name="Source Comments in Structured Text Editors" description="Source Comments in Structured Text Editors"/>
+          <children xmi:id="_igDVCaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.core.runtime.xml" name="Editing XML Source" description="Editing XML Source"/>
+          <children xmi:id="_igDVCqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.occurrences" name="XML Source Occurrences" description="XML Source Occurrences"/>
+          <children xmi:id="_igDVC6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.grammar" name="XML Source Grammar" description="XML Source Grammar"/>
+          <children xmi:id="_igDVDKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.comments" name="XML Source Comments" description="XML Source Comments"/>
+          <children xmi:id="_igD8EaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.expand" name="XML Source Expand/Collapse" description="XML Source Expand/Collapse"/>
+          <children xmi:id="_igD8E6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.hideFormat" name="Editing in Structured Text Editors" description="Editing in Structured Text Editors"/>
+          <children xmi:id="_igD8FKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.selection" name="XML Source Selection" description="XML Source Selection"/>
+          <children xmi:id="_igD8FaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.dependencies" name="XML Source Dependencies" description="XML Source Dependencies"/>
+        </children>
       </children>
       <children xmi:id="_joGRRaL2EeeNA6rcH_ZDnA" elementId="org.eclipse.debug.ui.console" name="In I/O Console" description="In I/O console"/>
       <children xmi:id="_joGRR6L2EeeNA6rcH_ZDnA" elementId="org.eclipse.compare.compareEditorScope" name="Comparing in an Editor" description="Comparing in an Editor"/>
@@ -744,6 +985,12 @@
   <rootContext xmi:id="_j83nnKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.mylyn.context.ui.actionSet" name="Auto::org.eclipse.mylyn.context.ui.actionSet"/>
   <rootContext xmi:id="_j83nnqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.mylyn.tasks.ui.navigation" name="Auto::org.eclipse.mylyn.tasks.ui.navigation"/>
   <rootContext xmi:id="_j83noKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.mylyn.tasks.ui.navigation.additions" name="Auto::org.eclipse.mylyn.tasks.ui.navigation.additions"/>
+  <rootContext xmi:id="_igDVAKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xsd.ui.editor.designView" name="XSD Editor Design View" description="XSD Editor Design View"/>
+  <rootContext xmi:id="_igD8EKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xsd.ui.editor.sourceView" name="XSD Editor Source View" description="XSD Editor Source View"/>
+  <rootContext xmi:id="_i5KYkKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.java.actionSet" name="Auto::org.eclipse.mylyn.java.actionSet"/>
+  <rootContext xmi:id="_i5K_oKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.java.actionSet.browsing" name="Auto::org.eclipse.mylyn.java.actionSet.browsing"/>
+  <rootContext xmi:id="_i5LmsaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.doc.actionSet" name="Auto::org.eclipse.mylyn.doc.actionSet"/>
+  <rootContext xmi:id="_i5Lms6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.wb.core.ui.actionset" name="Auto::org.eclipse.wb.core.ui.actionset"/>
   <descriptors xmi:id="_jqL78KL2EeeNA6rcH_ZDnA" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
     <tags>Editor</tags>
   </descriptors>
@@ -966,6 +1213,58 @@
   <descriptors xmi:id="_jqxx4aL2EeeNA6rcH_ZDnA" elementId="org.eclipse.mylyn.tasks.ui.views.repositories" label="Task Repositories" iconURI="platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/repositories.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <tags>View</tags>
     <tags>categoryTag:Mylyn</tags>
+  </descriptors>
+  <descriptors xmi:id="_ilufMKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.gef.ui.palette_view" label="Palette" iconURI="platform:/plugin/org.eclipse.gef/icons/palette_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_il9vwKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.core.views.MavenRepositoryView" label="Maven Repositories" iconURI="platform:/plugin/org.eclipse.m2e.core.ui/icons/maven_indexes.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Maven</tags>
+  </descriptors>
+  <descriptors xmi:id="_imAzEKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.core.views.MavenBuild" label="Maven Workspace Build" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Maven</tags>
+  </descriptors>
+  <descriptors xmi:id="_imCBMKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.builds.navigator.builds" label="Builds" iconURI="platform:/plugin/org.eclipse.mylyn.builds.ui/icons/eview16/build-view.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Mylyn</tags>
+  </descriptors>
+  <descriptors xmi:id="_imJ9AKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.recommenders.apidocs.rcp.views.apidocs" label="API Docs" iconURI="platform:/plugin/org.eclipse.recommenders.apidocs.rcp/icons/extdoc.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Code Recommenders</tags>
+  </descriptors>
+  <descriptors xmi:id="_imMZQKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.recommenders.models.rcp.views.modelRepositories" label="Model Repositories" iconURI="platform:/plugin/org.eclipse.recommenders.models.rcp/icons/view16/depinsp.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Code Recommenders</tags>
+  </descriptors>
+  <descriptors xmi:id="_imO1gKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.recommenders.models.rcp.views.projectCoordinates" label="Project Coordinates" iconURI="platform:/plugin/org.eclipse.recommenders.models.rcp/icons/view16/depinsp.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Code Recommenders</tags>
+  </descriptors>
+  <descriptors xmi:id="_imQDoKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.recommenders.models.rcp.views.dependencyOverview" label="Dependency Overview" iconURI="platform:/plugin/org.eclipse.recommenders.models.rcp/icons/view16/depinsp.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Code Recommenders</tags>
+  </descriptors>
+  <descriptors xmi:id="_imdfAKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wb.core.StructureView" label="Structure" iconURI="platform:/plugin/org.eclipse.wb.core/icons/structure/properties_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:WindowBuilder</tags>
+  </descriptors>
+  <descriptors xmi:id="_imhJYKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wb.core.PaletteView" label="Palette" iconURI="platform:/plugin/org.eclipse.wb.core/icons/structure/palette.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:WindowBuilder</tags>
+  </descriptors>
+  <descriptors xmi:id="_imiXgKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets" iconURI="platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_imkzwKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.ui.views.annotations.XMLAnnotationsView" label="Documentation" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/full/obj16/comment_obj.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:XML</tags>
+  </descriptors>
+  <descriptors xmi:id="_imnQAKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.ui.contentmodel.view" label="Content Model" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/full/view16/hierarchy.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:XML</tags>
   </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
@@ -1832,6 +2131,106 @@
   <commands xmi:id="_j2wYeaL2EeeNA6rcH_ZDnA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.open.repositories.view" commandName="Show Task Repositories View" description="Show Task Repositories View" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
   <commands xmi:id="_j2wYeqL2EeeNA6rcH_ZDnA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.doc.legend.show.action" commandName="Show UI Legend" description="Show Tasks UI Legend" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
   <commands xmi:id="_j2wYe6L2EeeNA6rcH_ZDnA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.context.ui.actions.tasklist.focus" commandName="Focus on Workweek" description="Focus on Workweek" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3HwKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wb.core.commands.switch" commandName="Switch Source/Design Views" description="Switch between the Source and Design views." category="_if1SkKL_EeeoXKkMuoHCXQ"/>
+  <commands xmi:id="_if3HwaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.ui.editor.showCheatSheetCommand" commandName="Show Markup Cheat Sheet" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3HwqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.gef.ui.palette_view" commandName="Palette" category="_jnzWUaL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u0KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.add.block.comment" commandName="Add Block Comment" description="Add Block Comment" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u0aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.actions.LifeCycleTest.run" commandName="Run Maven Test" description="Run Maven Test" category="_jnzWYaL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u0qL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.open.file.from.source" commandName="Open Selection" description="Open an editor on the selected link" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u06L_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.builds.ui.command.ShowTestResults" commandName="Show Test Results" category="_if1SkqL_EeeoXKkMuoHCXQ"/>
+  <commands xmi:id="_if3u1KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.goto.matching.bracket" commandName="Matching Character" description="Go to Matching Character" category="_jnzWV6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u1aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.ui.disable.grammar.constraints" commandName="Turn off Grammar Constraints" description="Turn off grammar Constraints" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u1qL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.ui.quickOutlineCommand" commandName="Quick Outline" description="Open a popup dialog with a quick outline of the current document" category="_jnzWV6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u16L_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.ui.convertToDocbookCommand" commandName="Generate Docbook" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u2KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.quick_outline" commandName="Quick Outline" description="Show the quick outline for the editor input" category="_jnzWV6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u2aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.actions.LifeCycleGenerateSources.run" commandName="Run Maven Generate Sources" description="Run Maven Generate Sources" category="_jnzWYaL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u2qL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.structure.select.previous" commandName="Select Previous Element" description="Expand selection to include previous sibling" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u26L_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.ui.convertToMarkupCommand" commandName="Generate Markup" category="_jnzWaqL2EeeNA6rcH_ZDnA">
+    <parameters xmi:id="_if3u3KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.ui.targetLanguage" name="TargetLanguage" optional="false"/>
+  </commands>
+  <commands xmi:id="_if3u3aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.structure.select.next" commandName="Select Next Element" description="Expand selection to include next sibling" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if3u3qL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.builds.ui.command.ShowBuildOutput" commandName="Show Build Output" category="_if1SkqL_EeeoXKkMuoHCXQ"/>
+  <commands xmi:id="_if3u36L_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand" commandName="Select Maven Profiles" category="_jnzWW6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V4KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.remove.block.comment" commandName="Remove Block Comment" description="Remove Block Comment" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V4aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.core.ui.command.openPom" commandName="Open Maven POM" category="_jnzWV6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V4qL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xsd.ui.refactor.rename.element" commandName="&amp;Rename XSD element" description="Rename XSD element" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V46L_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.java.ui.editor.folding.auto" commandName="Toggle Active Folding" description="Toggle Active Folding" category="_if1Sk6L_EeeoXKkMuoHCXQ"/>
+  <commands xmi:id="_if4V5KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.builds.ui.commands.OpenBuildElementWithBrowser" commandName="Open Build with Browser" category="_if1SkqL_EeeoXKkMuoHCXQ">
+    <parameters xmi:id="_if4V5aL_EeeoXKkMuoHCXQ" elementId="element" name="Element"/>
+  </commands>
+  <commands xmi:id="_if4V5qL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.structure.select.enclosing" commandName="Select Enclosing Element" description="Expand selection to include enclosing element" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V56L_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.builds.ui.commands.OpenBuildElement" commandName="Open Build Element" category="_if1SkqL_EeeoXKkMuoHCXQ">
+    <parameters xmi:id="_if4V6KL_EeeoXKkMuoHCXQ" elementId="element" name="Element"/>
+  </commands>
+  <commands xmi:id="_if4V6aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.ui.previousSibling" commandName="Previous Sibling" description="Go to Previous Sibling" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V6qL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.structure.select.last" commandName="Restore Last Selection" description="Restore last selection" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V66L_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.builds.ui.command.NewTaskFromBuild" commandName="New Task From Build" category="_if1SkqL_EeeoXKkMuoHCXQ"/>
+  <commands xmi:id="_if4V7KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xsd.ui.refactor.makeElementGlobal" commandName="Make Local Element &amp;Global" description="Promotes local element to global level and replaces its references" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V7aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.context.ui.editor.folding.auto" commandName="Toggle Active Folding" description="Toggle Active Folding" category="_if1SlKL_EeeoXKkMuoHCXQ"/>
+  <commands xmi:id="_if4V7qL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.builds.ui.command.NewTaskFromTest" commandName="New Task From Test" category="_if1SkqL_EeeoXKkMuoHCXQ"/>
+  <commands xmi:id="_if4V76L_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.cleanup.document" commandName="Cleanup Document..." description="Cleanup document" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V8KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.format" commandName="Format" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V8aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.core.ui.command.addPlugin" commandName="Add Maven Plugin" description="Add Maven Plugin" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V8qL_EeeoXKkMuoHCXQ" elementId="sed.tabletree.expandAll" commandName="Expand All" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V86L_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.ui.gotoMatchingTag" commandName="Matching Tag" description="Go to Matching Tag" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V9KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.ui.reload.dependencies" commandName="Reload Dependencies" description="Reload Dependencies" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V9aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.generate.xml" commandName="&amp;XML File..." category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V9qL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xsd.ui.refactor.makeTypeGlobal" commandName="Make &amp;Anonymous Type Global" description="Promotes anonymous type to global level and replaces its references" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V96L_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.format.active.elements" commandName="Format Active Elements" description="Format active elements" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V-KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.actions.LifeCycleClean.run" commandName="Run Maven Clean" description="Run Maven Clean" category="_jnzWYaL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4V-aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.gef.zoom_in" commandName="Zoom In" description="Zoom In" category="_if1SlaL_EeeoXKkMuoHCXQ"/>
+  <commands xmi:id="_if488KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.ui.convertToEclipseHelpCommand" commandName="Generate Eclipse Help (*.html and *-toc.xml)" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if488aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.ui.referencedFileErrors" commandName="Show Details..." description="Show Details..." category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if488qL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.discovery.ui" commandName="m2e Marketplace" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4886L_EeeoXKkMuoHCXQ" elementId="org.eclipse.gef.zoom_out" commandName="Zoom Out" description="Zoom Out" category="_if1SlaL_EeeoXKkMuoHCXQ"/>
+  <commands xmi:id="_if489KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.toggle.comment" commandName="Toggle Comment" description="Toggle Comment" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if489aL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.ui.cmnd.contentmodel.sych" commandName="Synch" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if489qL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xsd.ui.refactor.renameTargetNamespace" commandName="Rename Target Namespace" description="Changes the target namespace of the schema" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if4896L_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.core.ui.command.updateProject" commandName="Update Project" description="Update Maven Project configuration and dependencies" category="_jnzWW6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if6yIKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.ui.convertToHtmlCommand" commandName="Generate HTML" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if7ZMKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.core.pomFileAction.run" commandName="Run Maven Build" description="Run Maven Build" category="_jnzWYaL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if7ZMaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.actions.LifeCycleInstall.run" commandName="Run Maven Install" description="Run Maven Install" category="_jnzWYaL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if7ZMqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.egit.ui.RepositoriesViewRebase" commandName="Rebase on" category="_jnzWY6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if7ZM6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.wb.core.commands.empty" commandName="Empty command" description="Command which does nothing" category="_if1SkKL_EeeoXKkMuoHCXQ"/>
+  <commands xmi:id="_if7ZNKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.xml.ui.nextSibling" commandName="Next Sibling" description="Go to Next Sibling" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if7ZNaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.tasks.bugs.commands.newTaskFromMarker" commandName="New Task from Marker..." description="Report as Bug from Marker" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if7ZNqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.core.ui.command.addDependency" commandName="Add Maven Dependency" description="Add Maven Dependency" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if7ZN6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.format.document" commandName="Format" description="Format selection" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if7ZOKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.m2e.editor.RenameArtifactAction" commandName="Rename Maven Artifact..." category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if7ZOaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.builds.ui.commands.CopyDetails" commandName="Copy Details" category="_if1SkqL_EeeoXKkMuoHCXQ">
+    <parameters xmi:id="_if7ZOqL_EeeoXKkMuoHCXQ" elementId="kind" name="Kind"/>
+    <parameters xmi:id="_if7ZO6L_EeeoXKkMuoHCXQ" elementId="element" name="Element"/>
+  </commands>
+  <commands xmi:id="_if7ZPKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.builds.ui.command.RunBuild" commandName="Run Build" category="_if1SkqL_EeeoXKkMuoHCXQ"/>
+  <commands xmi:id="_if7ZPaL_EeeoXKkMuoHCXQ" elementId="sed.tabletree.collapseAll" commandName="Collapse All" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if7ZPqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.search.find.occurrences" commandName="Occurrences in File" description="Find occurrences of the selection in the file" category="_jnzWUqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_if7ZP6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.wst.sse.ui.outline.customFilter" commandName="&amp;Filters" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_iiK04KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.cocoa.arrangeWindowsInFront" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" commandName="%command.arrangeWindows.name" description="%command.arrangeWindows.desc" category="_jnzWW6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_iiMDAKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.cocoa.minimizeWindow" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" commandName="%command.minimize.name" description="%command.minimize.desc" category="_jnzWW6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_iiMDAqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.cocoa.fullscreenWindow" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" commandName="%command.fullscreen.name" description="%command.fullscreen.desc" category="_jnzWW6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_iiMqEqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.cocoa.zoomWindow" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" commandName="%command.zoom.name" description="%command.zoom.desc" category="_jnzWW6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_iiNRIaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.ui.cocoa.closeDialog" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" commandName="%command.closeDialog.name" description="%command.closeDialog.desc" category="_jnzWW6L2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i33_IKL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.mylyn.java.actionSet.browsing/org.eclipse.mylyn.java.ui.actions.ApplyMylynToBrowsingPerspectiveAction" commandName="Focus Browsing Perspective" description="Focus Java Browsing Views on Active Task" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i34mMKL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.mylyn.doc.actionSet/org.eclipse.mylyn.tasks.ui.bug.report" commandName="Report Bug or Enhancement..." description="Report Bug or Enhancement" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i38QkKL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.wb.core.ui.actionset/org.eclipse.wb.core.wizards.actions.NewDesignerTypeDropDownAction" commandName="New Visual Class" description="Create new visual classes" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i3-FwKL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.m2e.jdt.ui.downloadSourcesContribution/org.eclipse.m2e.jdt.ui.downloadSourcesAction" commandName="label" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i3-FwaL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.m2e.jdt.ui.downloadSourcesContribution_38/org.eclipse.m2e.jdt.ui.downloadSourcesAction_38" commandName="label" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i3-s0KL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction" commandName="label" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i3_T4KL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.wst.dtd.core.dtdsource.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Add Bookmark..." category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i3_68KL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.wst.dtd.core.dtdsource.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Select Ruler" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i3_68aL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.core.runtime.xml.source.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Add Bookmark..." category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i3_68qL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.core.runtime.xml.source.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Select Ruler" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i3_686L_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.wst.xsd.core.xsdsource.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Add Bookmark..." category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i4AiAKL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.wst.xsd.core.xsdsource.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Select Ruler" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i4CXMKL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.mylyn.java.ui.markers.breakpoints.contribution/org.eclipse.mylyn.java.ui.actions.focus.markers.breakpoints" commandName="Focus on Active Task" description="Focus on Active Task" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i4CXMaL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.mylyn.ui.debug.view.contribution/org.eclipse.mylyn.ui.actions.FilterResourceNavigatorAction" commandName="Focus on Active Task (Experimental)" description="Focus on Active Task (Experimental)" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i4C-QKL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.mylyn.ui.projectexplorer.filter/org.eclipse.mylyn.ide.ui.actions.focus.projectExplorer" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i4DlUKL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.mylyn.ui.resource.navigator.filter/org.eclipse.mylyn.ide.ui.actions.focus.resourceNavigator" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i4DlUaL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.mylyn.problems.contribution/org.eclipse.mylyn.ide.ui.actions.focus.markers.problems" commandName="Focus on Active Task" description="Focus on Active Task" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i4DlUqL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.mylyn.markers.all.contribution/org.eclipse.mylyn.ide.ui.actions.focus.markers.all" commandName="Focus on Active Task" description="Focus on Active Task" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i4EMYKL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.mylyn.markers.tasks.contribution/org.eclipse.mylyn.ide.ui.actions.focus.markers.tasks" commandName="Focus on Active Task" description="Focus on Active Task" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i4EzcKL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.mylyn.markers.bookmarks.contribution/org.eclipse.mylyn.ide.ui.actions.focus.markers.bookmarks" commandName="Focus on Active Task" description="Focus on Active Task" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
+  <commands xmi:id="_i4EzcaL_EeeoXKkMuoHCXQ" elementId="AUTOGEN:::org.eclipse.mylyn.java.explorer.contribution/org.eclipse.mylyn.java.actions.focus.packageExplorer" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_jnzWaqL2EeeNA6rcH_ZDnA"/>
   <addons xmi:id="_jngbaKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_jngbaaL2EeeNA6rcH_ZDnA" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_jngbaqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -1843,6 +2242,7 @@
   <addons xmi:id="_jngbcKL2EeeNA6rcH_ZDnA" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_jngbcaL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_jngbcqL2EeeNA6rcH_ZDnA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
+  <addons xmi:id="_iiKN0KL_EeeoXKkMuoHCXQ" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler"/>
   <categories xmi:id="_jnzWUKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_jnzWUaL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
   <categories xmi:id="_jnzWUqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.ui.category.edit" name="Edit"/>
@@ -1870,4 +2270,10 @@
   <categories xmi:id="_jnzWaKL2EeeNA6rcH_ZDnA" elementId="org.eclipse.pde.runtime.spy.commands.category" name="Spy"/>
   <categories xmi:id="_jnzWaaL2EeeNA6rcH_ZDnA" elementId="org.eclipse.pde.ui.category.source" name="Manifest Editor Source" description="PDE Source Page actions"/>
   <categories xmi:id="_jnzWaqL2EeeNA6rcH_ZDnA" elementId="org.eclipse.core.commands.categories.autogenerated" name="Uncategorized" description="Commands that were either auto-generated or have no category"/>
+  <categories xmi:id="_if1SkKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.wb.core.actions.category" name="WindowBuilder Pro" description="WindowBuilder Pro actions"/>
+  <categories xmi:id="_if1SkaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>
+  <categories xmi:id="_if1SkqL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.builds.ui.category.Commands" name="Builds"/>
+  <categories xmi:id="_if1Sk6L_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.java.ui.commands" name="Java Context" description="Java Task-Focused Interface Commands"/>
+  <categories xmi:id="_if1SlKL_EeeoXKkMuoHCXQ" elementId="org.eclipse.mylyn.wikitext.context.ui.commands" name="%commands.category.name" description="%commands.category.description"/>
+  <categories xmi:id="_if1SlaL_EeeoXKkMuoHCXQ" elementId="org.eclipse.gef.category.view" name="View" description="View"/>
 </application:Application>
